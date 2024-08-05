@@ -131,6 +131,68 @@
             text-align: left;
         }
 
+        .team-section{
+            margin-top: 75px;
+        }
+
+        .team-title h1{
+            font-size: 45px;
+            color: #090909;
+            text-align: center;
+            position: relative;
+        }
+        .card-area{
+            width: 100%;
+            display: flex;
+            margin-left: 100px;
+        }
+        .team-cards{
+            width:100%;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+        }
+        .team-card{
+            background-color: #597445;
+            border-radius: 45px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            margin: 0px 20px;
+            text-align: center;
+            transition: transform 0.6s ease;
+            width: 100%;
+        }
+        .team-card :hover{
+            transform: translateY(-12px);
+        }
+        .team-image img{
+            border-radius: 60%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        
+        .team-detail h3{
+            color: #ffffff;
+            font-size: 25px;
+            margin: 15px 0px;
+        }
+
+        .team-detail p{
+            color: #ffffff;
+            font-size: 15px;
+        }
+@media screen and (max-width: 768px){
+    .team-cards{
+          display: flex;
+          flex-direction: column;
+        }
+    .team-card{
+        width: 100%;
+        margin: 25px auto;
+    }
+}
+
     </style>
 </head>
 <body>
@@ -175,6 +237,76 @@
             <br>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi fuga cumque quia facere odit hic vitae blanditiis recusandae, quae culpa repellat aliquam, saepe, exercitationem soluta reprehenderit a fugiat necessitatibus quo.</p>
         </div>
+
+        <section class="team-section">
+
+            <div class="team-title">
+                <h1>our member</h1>
+            </div>
+            
+            <div class="card-area">
+                <div class="team-cards">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="faiesmk.jpg">
+                        </div>
+                        <div class="team-detail">
+                            <h3>FACHRY</h3>
+                            <p>web engginer</p>
+                            <br>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="team-cards">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="keydo.jpeg">
+                        </div>
+                        <div class="team-detail">
+                            <h3>Keydo</h3>
+                            <p>full stack developer</p>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="team-cards">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="zeku.jpg">
+                        </div>
+                        <div class="team-detail">
+                            <h3>Zaky Ell</h3>
+                            <p>Android engginer</p>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+                <div class="team-cards">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="IMG20231127202533.jpg">
+                        </div>
+                        <div class="team-detail">
+                            <h3>Raja</h3>
+                            <p>full stack developer</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        
+        </section>
+
+        
+
+
 
         <!-- Section Project -->
 
